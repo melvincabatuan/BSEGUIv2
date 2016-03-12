@@ -1,0 +1,26 @@
+.root {
+-white-ish: rgba(255, 255, 255, .90);
+-black-ish: rgba(0, 0, 0, .80);
+}
+.button-panel {
+-fx-arc-width: 10;
+-fx-arc-height: 10;
+-fx-fill: -black-ish;
+-fx-stroke: -white-ish;
+}
+.right-arrow {
+-fx-fill: -white-ish;
+-fx-translate-x: 40;
+}
+.left-arrow {
+-fx-fill: -white-ish;
+-fx-translate-x: 2;
+}
+.ticker-border{
+-fx-stroke-width: 2;
+-fx-stroke: -white-ish;
+-fx-translate-y: 8;
+}
+#close-circle {
+-fx-fill: -white-ish;
+}

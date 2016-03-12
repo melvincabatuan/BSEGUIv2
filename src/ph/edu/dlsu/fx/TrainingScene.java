@@ -27,12 +27,12 @@ public class TrainingScene extends BaseCameraScene {
         rootNode.setPrefSize(displayWidth, displayHeight);
 
         // Initialize background image and load to Imageview
-        ImageView imgBackground = Utils.loadImage2View("res/BSEdepth2.png", displayWidth, displayHeight);
+        ImageView imgBackground = Utils.loadImage2View("res/drawable/BSEdepth2.png", displayWidth, displayHeight);
         if (imgBackground != null) {
             rootNode.getChildren().add(imgBackground);
         }
 
-        currentFrame = Utils.loadImage2View("res/video.jpg", frameWidth, frameHeight);
+        currentFrame = Utils.loadImage2View("res/drawable/video.jpg", frameWidth, frameHeight);
         currentFrame.setTranslateX((displayWidth - frameWidth) / 2.0);
         currentFrame.setTranslateY(0);
         rootNode.getChildren().add(currentFrame);

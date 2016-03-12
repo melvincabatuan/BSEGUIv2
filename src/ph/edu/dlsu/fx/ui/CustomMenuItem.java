@@ -17,6 +17,7 @@ import ph.edu.dlsu.fx.utils.Sound;
  */
 public class CustomMenuItem extends StackPane {
 
+    // private static final String menuClickPath = "/home/cobalt/IdeaProjects/BSEGUIv2/res/audio/menuclick.wav";
 
     public CustomMenuItem(String name) {
         LinearGradient gradient = new LinearGradient(0, 0, 1, 0, true, CycleMethod.NO_CYCLE, new Stop(0, Color.DARKOLIVEGREEN),
@@ -49,7 +50,7 @@ public class CustomMenuItem extends StackPane {
         setOnMousePressed(event ->
         {
             bg.setFill(Color.DARKGREEN);
-            (new Sound("file:res/menuclick.wav")).play();
+            (new Sound("file:res/audio/menuclick.wav")).play();
         });
 
         setOnMouseReleased(event -> bg.setFill(gradient));
@@ -88,7 +89,7 @@ public class CustomMenuItem extends StackPane {
         setOnMousePressed(event ->
         {
             bg.setFill(Color.DARKGREEN);
-            (new Sound("file:res/menuclick.wav")).play();
+            (new Sound("file:res/audio/menuclick.wav")).play();
         });
 
         setOnMouseReleased(event -> bg.setFill(gradient));

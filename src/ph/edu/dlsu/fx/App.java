@@ -11,19 +11,15 @@ import org.opencv.core.Core;
 import ph.edu.dlsu.fx.ui.CustomMenuItem;
 import ph.edu.dlsu.fx.ui.MenuTitle;
 import ph.edu.dlsu.fx.ui.MenuVBox;
-import ph.edu.dlsu.fx.utils.ConfirmationBox;
-import ph.edu.dlsu.fx.utils.ScreenSize;
-import ph.edu.dlsu.fx.utils.Utils;
-import ph.edu.dlsu.fx.utils.VideoBox;
+import ph.edu.dlsu.fx.utils.*;
 
 import java.nio.file.Paths;
 
 public class App extends Application {
 
+    private static final String introFilePath = "/home/cobalt/IdeaProjects/BSEGUIv2/res/video/GameofThronesTheme.mp4";
     private static final String WINDOW_TITLE = "BSE APPLICATION -- Alpha Version";
-    public static final String MENU_TITLE = "    BSE MENU";
-
-    private static String introFilePath = "/home/cobalt/IdeaProjects/BSEGUIv2/res/GameofThronesTheme.mp4";
+    public static final String MENU_TITLE    = "    BSE MENU";
 
     // Window size
     private static double displayWidth;
@@ -65,7 +61,7 @@ public class App extends Application {
         rootNode.setPrefSize(displayWidth, displayHeight);
 
         // Initialize background image and load to Imageview
-        ImageView imgBackground = Utils.loadImage2View("res/skyrim.jpg", displayWidth, displayHeight);
+        ImageView imgBackground = Utils.loadImage2View("res/drawable/skyrim.jpg", displayWidth, displayHeight);
         if (imgBackground != null) {
             rootNode.getChildren().add(imgBackground);
         }
@@ -136,8 +132,7 @@ public class App extends Application {
 
     // FACTS Menu
     public static void onFacts() {
-        FactsScene factScene = new FactsScene();
-        stage.setScene(new Scene(factScene.createContent(), displayWidth, displayHeight));
+        ImageBox.show();
     }
 
 

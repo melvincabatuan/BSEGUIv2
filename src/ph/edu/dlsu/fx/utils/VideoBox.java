@@ -23,7 +23,6 @@ import javafx.util.Duration;
  * Created by cobalt on 3/12/16.
  */
 public class VideoBox {
-
     private static final String buttonPanelStyle = "/home/cobalt/IdeaProjects/BSEGUIv2/src/ph/edu/dlsu/fx/css/playing-video.css";
     private static final String MEDIA_VIEW_ID = "media-view";
     private static final String STOP_BUTTON_ID = "stop-button";
@@ -57,7 +56,7 @@ public class VideoBox {
         stage.setScene(scene);
 
         // Initialize stage to be movable via mouse
-        initMovablePlayer();
+        initMovableWindow();
 
         // Initialize stage to have fullscreen ability
         initFullScreenMode();
@@ -81,6 +80,8 @@ public class VideoBox {
 
         // Create the close button
         Node closeButton = createCloseButton();
+
+        // Add Nodes to the Group
         root.getChildren()
                 .addAll(applicationArea,
                         mediaView,
@@ -95,12 +96,13 @@ public class VideoBox {
             ex.printStackTrace();
         }
 
+        stage.setFullScreen(true);
         stage.show();
     }
 
     private static void initFullScreenMode() {
         Scene scene = stage.getScene();
-// Full screen toggle
+
         scene.setOnMouseClicked((MouseEvent event) -> {
             if (event.getClickCount() == 2) {
                 stage.setFullScreen(!stage.isFullScreen());
@@ -109,11 +111,8 @@ public class VideoBox {
     }
 
 
-    /**
-     * Initialize the stage to allow the mouse cursor to
-     * move the application using dragging.
-     */
-    private static void initMovablePlayer() {
+
+    private static void initMovableWindow() {
         Scene scene = stage.getScene();
         // starting initial anchor point
         scene.setOnMousePressed(mouseEvent
