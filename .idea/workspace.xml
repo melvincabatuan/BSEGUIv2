@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="d2041e02-962d-4e54-a042-a6d56f9cdf5b" name="Default" comment="" />
-    <list default="true" id="555fecd5-69b7-4631-ac12-e9c1c136692b" name="New changelist" comment="Added CMT Tracker">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/audio/menuclick.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/BSEdepth.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/BSEdepth2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/armpit_swelling.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/breastcancer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/breastcancerph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/breastfeeding.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/breastmap.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bse_vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/constant_pain.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/discharge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/drink.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/drjoson.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/family.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/fitness.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/fruitsveggie.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/gene.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/inverted_nipple.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/lump_or_thickening.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/mammogram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/nosmoking.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/oldlady.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/one_in_13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pcs.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pills.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pink_awareness.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pinkribbon.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pinkribbon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/pressure_level.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/radioactive.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/redness.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/reverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/size_change.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/skyrim.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splash1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splash2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splash3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/splash4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/stethoscope.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/sunlight.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/texture_change.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/three_pad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/video.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/woman.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/video/GameofThronesTheme.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/css/photo-viewer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ImageBox.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/BSEdepth.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/BSEdepth2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/GameofThronesTheme.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menuclick.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/skyrim.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/video.jpg" afterPath="" />
+    <list default="true" id="555fecd5-69b7-4631-ac12-e9c1c136692b" name="New changelist" comment="Updated Image View">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/App.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/App.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/FactsScene.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/FactsScene.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/StartScene.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/StartScene.class" />
@@ -63,12 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/ui/CustomMenuItem.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/ui/CustomMenuItem.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/utils/VideoBox.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/utils/VideoBox.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/FactsScene.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/FactsScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/StartScene.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/StartScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/TrainingScene.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/TrainingScene.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/ui/CustomMenuItem.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/ui/CustomMenuItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java" />
     </list>
     <ignored path="BSEGUI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -701,7 +642,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457503494027</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Image View">
+      <created>1457819248178</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457819248178</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -747,7 +694,8 @@
     <MESSAGE value="added native code" />
     <MESSAGE value="Added screenshots" />
     <MESSAGE value="Added CMT Tracker" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added CMT Tracker" />
+    <MESSAGE value="Updated Image View" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Image View" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
