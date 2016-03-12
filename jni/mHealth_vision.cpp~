@@ -1,0 +1,72 @@
+//
+// Created by cobalt on 1/4/16.
+// mHealth JNI
+//
+
+#include <jni.h>
+#include <opencv2/core.hpp>
+
+/* Mixers (Filter)*/
+#include "RecolorRC.h"
+
+
+
+using namespace mhealth;
+
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+
+/****************************** RecolorRC ******************************/
+
+/*
+ * Class:     ph_edu_dlsu_fx_vision_RecolorRC
+ * Method:    nativeCreateObject
+ * Signature: ()J
+ */
+JNIEXPORT jlong JNICALL Java_ph_edu_dlsu_fx_vision_RecolorRC_nativeCreateObject(JNIEnv *env, jclass type) {
+
+    RecolorRCFilter *self = new RecolorRCFilter();
+    return (jlong) self;
+
+}
+
+
+/*
+ * Class:     ph_edu_dlsu_fx_vision_RecolorRC
+ * Method:    nativeDestroyObject
+ * Signature: (J)V
+ */
+JNIEXPORT void JNICALL Java_ph_edu_dlsu_fx_vision_RecolorRC_nativeDestroyObject(JNIEnv *env, jclass type,
+                                                              jlong thiz) {
+
+    if (thiz != 0) {
+        RecolorRCFilter *self = (RecolorRCFilter *) thiz;
+        delete self;
+    }
+
+}
+
+
+/*
+ * Class:     ph_edu_dlsu_fx_vision_RecolorRC
+ * Method:    apply
+ * Signature: (JJJ)V
+ */
+JNIEXPORT void JNICALL Java_ph_edu_dlsu_fx_vision_RecolorRC_apply(JNIEnv *env, jclass type, jlong thiz,
+                                                     jlong srcAddr, jlong dstAddr) {
+
+    if (thiz != 0) {
+        RecolorRCFilter *self = (RecolorRCFilter *) thiz;
+        cv::Mat &src = *(cv::Mat *) srcAddr;
+        cv::Mat &dst = *(cv::Mat *) dstAddr;
+        self->apply(src, dst);
+    }
+
+}
+
+#ifdef __cplusplus
+}
+#endif
