@@ -43,7 +43,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class ImageBox {
 
     private static final String photoViewerStyle = "/home/cobalt/IdeaProjects/BSEGUIv2/src/ph/edu/dlsu/fx/css/photo-viewer.css";
-    private static final String testImagePath = "/home/cobalt/IdeaProjects/BSEGUIv2/res/drawable/constant_pain.png";
+    private static final String testImagePath = "/home/cobalt/IdeaProjects/BSEGUIv2/res/drawable/fruitsveggie.jpeg";
     private static final String CLOSE_BUTTON_ID = "close-button";
 
     // List of URL strings
@@ -56,6 +56,7 @@ public class ImageBox {
     public enum ButtonMove {
         NEXT, PREV
     }
+
     ;
 
     // Image caption animation
@@ -72,9 +73,6 @@ public class ImageBox {
     private static Point2D anchorPt;
     private static Point2D previousLocation;
 
-    private static double sceneWidth;
-    private static double sceneHeight;
-
 
     public static void show() {
 
@@ -85,12 +83,11 @@ public class ImageBox {
         stage.setY(120);
 
         double scale = 1.5;
-        sceneWidth = 640.0 * scale;
-        sceneHeight = 360.0 * scale;
+        double sceneWidth = 640.0 * scale;
+        double sceneHeight = 360.0 * scale;
 
         Group root = new Group();
-
-        Scene scene = new Scene(root, sceneWidth, sceneHeight);
+        Scene scene = new Scene(root, sceneWidth, sceneHeight, Color.BLACK);
         scene.setFill(null);
 
         // Load JavaFX CSS styles
@@ -98,9 +95,7 @@ public class ImageBox {
         stage.setScene(scene);
 
         initFullScreenMode();
-
         initMovableWindow();
-
         initializeImages();
 
         // set up the current image view area
@@ -110,14 +105,17 @@ public class ImageBox {
         StackPane imagePane = new StackPane();
         imagePane.setPrefSize(sceneWidth, sceneHeight);
         imagePane.getChildren().add(currentImageView);
+        imagePane.maxWidthProperty().bind(scene.widthProperty());
+        imagePane.minWidthProperty().bind(scene.widthProperty());
+        imagePane.maxHeightProperty().bind(scene.heightProperty());
+        imagePane.minHeightProperty().bind(scene.heightProperty());
         imagePane.setAlignment(Pos.CENTER);
 
         // create button panel controls (left & right arrows)
         Group buttonGroup = createButtonPanel(scene);
 
-
         // Add ticker
-        caption = createTickerControl(stage, 85); // constant adjusts right padding
+        caption = createTickerControl(stage, 85); // 85: constant adjusts right padding
 
         // Create the close button
         Node closeButton = createCloseButton();
@@ -130,13 +128,11 @@ public class ImageBox {
 
         stage.setFullScreen(true);
         stage.show();
-
     }
 
 
     private static void initFullScreenMode() {
         Scene scene = stage.getScene();
-
         scene.setOnMouseClicked((MouseEvent event) -> {
             if (event.getClickCount() == 2) {
                 stage.setFullScreen(!stage.isFullScreen());
@@ -175,8 +171,7 @@ public class ImageBox {
     }
 
 
-
-    private static void initializeImages(){
+    private static void initializeImages() {
         try {
             addImage("file://" + testImagePath);
         } catch (Exception ex) {
@@ -277,9 +272,7 @@ public class ImageBox {
     }
 
 
-
     private static ImageView createImageView(ReadOnlyDoubleProperty heightProperty) {
-        Scene scene = stage.getScene();
         ImageView imageView = new ImageView();
         imageView.setPreserveRatio(true);
         imageView.fitHeightProperty().bind(heightProperty);
@@ -377,7 +370,7 @@ public class ImageBox {
         Text news = new Text();
         news.setText("JavaFX 8.0 News! | 85 and sunny | :)");
         news.setFill(Color.DARKGREY);
-        news.setFont(Font.font("Times New Roman", FontWeight.SEMI_BOLD, 20));
+        news.setFont(Font.font("Times New Roman", FontWeight.SEMI_BOLD, 30));
 
         tickerContent.getChildren().add(news);
         DoubleProperty centerContentY = new SimpleDoubleProperty();

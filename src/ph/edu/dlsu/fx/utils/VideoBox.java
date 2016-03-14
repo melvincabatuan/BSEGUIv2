@@ -270,7 +270,11 @@ public class VideoBox {
         closeButton.getChildren()
                 .addAll(closeBackground, closeXmark);
         // go to home menu
-        closeButton.setOnMouseClicked(mouseEvent -> stage.close());
+        closeButton.setOnMouseClicked(mouseEvent -> {
+            stage.close();
+            mediaPlayer.stop();
+            mediaPlayer = null;
+        });
         return closeButton;
     }
 
