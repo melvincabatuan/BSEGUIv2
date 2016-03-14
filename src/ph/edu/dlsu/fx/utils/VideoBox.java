@@ -19,6 +19,9 @@ import javafx.stage.StageStyle;
 import javafx.stage.WindowEvent;
 import javafx.util.Duration;
 
+import java.net.MalformedURLException;
+import java.nio.file.Paths;
+
 /**
  * Created by cobalt on 3/12/16.
  */
@@ -52,7 +55,11 @@ public class VideoBox {
         Scene scene = new Scene(root, 640.0 * scale, 360.0 * scale, Color.rgb(0, 0, 0, 0));
 
         // Load JavaFX CSS style
-        scene.getStylesheets().add("file://" + buttonPanelStyle);
+        try {
+            scene.getStylesheets().add(Paths.get(buttonPanelStyle).toUri().toURL().toString());
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
         stage.setScene(scene);
 
         // Initialize stage to be movable via mouse

@@ -121,8 +121,8 @@ public class App extends Application {
     // INTRO Menu
     public static void onIntro() {
         try {
-            //String url = Paths.get(filePath).toUri().toURL().toString(); // ok
-            String url = "file://" + introFilePath;
+            String url = Paths.get(introFilePath).toUri().toURL().toString(); // better for cross-platform
+            //String url = "file://" + introFilePath;
             VideoBox.show(url);
         } catch (Exception e) {
             e.printStackTrace();

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="d2041e02-962d-4e54-a042-a6d56f9cdf5b" name="Default" comment="" />
-    <list default="true" id="555fecd5-69b7-4631-ac12-e9c1c136692b" name="New changelist" comment="Updated Image View">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/utils/VideoBox.class" afterPath="$PROJECT_DIR$/out/production/BSEGUI/ph/edu/dlsu/fx/utils/VideoBox.class" />
+    <list default="true" id="555fecd5-69b7-4631-ac12-e9c1c136692b" name="New changelist" comment="Media Player Stop">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ImageBox.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ImageBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java" afterPath="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java" />
     </list>
     <ignored path="BSEGUI.iws" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <caret line="123" column="76" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -41,8 +40,8 @@
       <file leaf-file-name="VideoBox.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47098976">
-              <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.44444445">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,13 +116,13 @@
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ConfirmationBox.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/playing-video.css" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/BaseVideoScene.java" />
-        <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/FactsScene.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/StartScene.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/TrainingScene.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/ui/CustomMenuItem.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/css/photo-viewer.css" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ImageBox.java" />
+        <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java" />
         <option value="$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java" />
       </list>
     </option>
@@ -661,7 +660,13 @@
       <option name="project" value="LOCAL" />
       <updated>1457819269616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Media Player Stop">
+      <created>1457919119493</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1457919119493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -674,11 +679,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4262561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13452189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4262561" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13452189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23313783" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21187684" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -708,7 +713,8 @@
     <MESSAGE value="Added screenshots" />
     <MESSAGE value="Added CMT Tracker" />
     <MESSAGE value="Updated Image View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Image View" />
+    <MESSAGE value="Media Player Stop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Media Player Stop" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -895,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/ui/MenuVBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jni/RecolorRC.h">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9230769">
@@ -1077,6 +1076,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/ui/MenuVBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60714287">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/ImageBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1090,15 +1097,15 @@
     <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <caret line="123" column="76" selection-start-line="123" selection-start-column="49" selection-end-line="123" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ph/edu/dlsu/fx/utils/VideoBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47098976">
-          <caret line="275" column="24" selection-start-line="275" selection-start-column="24" selection-end-line="275" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.44444445">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
